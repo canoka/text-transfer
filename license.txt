@@ -1,0 +1,9 @@
+MIT License
+
+Copyright (c) 2024 @canoka
+
+İzinsiz kullanma, kopyalama, değiştirme, birleştirme, yayma, alt lisans verme ve satış hakkı verilen yazılımın başlıca lisansı, aşağıdaki koşullarla sınırlıdır:
+
+Yazılımın orijinal veya değiştirilmiş sürümüyle birlikte, yazılımın tüm kopyalarında bu lisans ve telif hakkı bildirimi yer almalıdır.
+
+YAZILIM, HERHANGİ BİR GARANTİ VERMEDEN, "OLDUĞU GİBİ" SUNULMAKTADIR. BUNUNLA BİRLİKTE, HERHANGİ BİR ZARAR, DOĞRUDAN, ÖZEL, ARIZALANAN veya ÖRNEĞİN BİRİNCİ TARAF KULLANIMI VEYA DIĞERİNE KENDİSİNE ÖZGÜL OLARAK İLGİLİ BİR DURUMDA OLUŞAN TÜM ZARARLAR İÇİN BİR SORUMLULUK YOKTUR.

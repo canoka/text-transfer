@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Text Transfer</title>
+    <script>
+        async function sendText() {
+            const text = document.getElementById('inputText').value;
+            const response = await fetch('/send', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ text }),
+            });
+            const result = await response.json();
+            alert(result.message || result.error);
+        }
+
+        async function receiveText() {
+            const response = await fetch('/receive');
+            const result = await response.json();
+            document.getElementById('receivedText').innerText = result.text || 'Gelen mesaj yok.';
+        }
+    </script>
+</head>
+<body>
+    <h1>Text Transfer Application</h1>
+
+
+    <div>
+        <h2>Mesaj Gönder</h2>
+        <textarea id="inputText" rows="4" cols="50" placeholder="Metni buraya yaz..."></textarea><br>
+        <button onclick="sendText()">Gönder</button>
+    </div>
+
+    <div>
+        <h2>Received Text</h2>
+        <button onclick="receiveText()">Yenile</button>
+        <p id="receivedText">Gelen mesaj yok.</p>
+    </div>
+</body>
+</html>
