@@ -82,6 +82,6 @@ Uygulamanın basit ve şık bir arayüzü vardır. İki ana bölümden oluşur:
 
 ## 📚 Lisans
 
-Bu proje, **MIT Lisansı** ile lisanslanmıştır. Detaylı bilgiye [LICENSE](LICENSE) dosyasından ulaşabilirsiniz.
+Bu proje, **MIT Lisansı** ile lisanslanmıştır. Detaylı bilgiye [LICENSE](https://github.com/canoka/text-transfer?tab=License-1-ov-file) dosyasından ulaşabilirsiniz.
 
 ---
