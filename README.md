@@ -33,18 +33,11 @@ git clone https://github.com/canoka/text-transfer.git
 cd text-transfer
 ```
 
-### 2. Gerekli Kütüphaneleri Yükleme
-Gerekli Python kütüphanelerini yüklemek için aşağıdaki komutu çalıştırın:
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Uygulamayı Başlatma
+### 2. Uygulamayı Başlatma
 Uygulamayı başlatmak için terminal veya komut satırında aşağıdaki komutu çalıştırın:
 
 ```bash
-python app.py
+python run.py
 ```
 
 Uygulama başarılı bir şekilde başlatıldığında, terminalde şu çıktıyı görmelisiniz:
